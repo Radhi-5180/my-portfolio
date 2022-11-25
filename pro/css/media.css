@@ -1,0 +1,66 @@
+@media only screen and (max-width: 500px){
+	header{
+		background:url(https://media.istockphoto.com/id/1368091551/vector/empty-blue-studio-room-interior-clean-workshop-for-photography-or-presentation.jpg?s=612x612&w=0&k=20&c=-s5J4vCdksn-mmEhkwr527jzUCx8kfLK2JOOYPlE_MY=);
+		background-size: cover;
+	}
+	.menu a{display: none;}
+
+	.logo{padding-left:50px;}
+	.text{margin-left:50px; }
+
+	.about-left-col{
+	flex-basis: 100%;
+	}
+	.about-left-col img{
+		width: 100%;
+		padding: 50px;
+	}
+	.about-right-col{
+		flex-basis: 100%;
+	}
+	.skills-left-col{
+	flex-basis: 100%;
+	text-align: justify;
+	}
+	.skills-right-col{
+	flex-basis: 100%;
+
+	}
+
+	.progress-div{
+	width: 100%;
+	margin: auto;
+	padding-top:100px;
+}
+	progress{
+	width: 60%;
+	}
+	.progress-div p{
+			 
+	margin-bottom: 10px;
+	font-size: 20px;
+	padding-left:10px;
+	text-align: justify;
+}
+
+.services-box{
+	flex-basis:60%;
+	margin-top: 20px;
+	mix-blend-mode: multiply;
+
+}
+.services-box img{
+	width: 60%;
+
+	
+}
+.contact-left-col{
+	flex-basis: 100%;
+	
+}
+
+.contact-right-col{
+	flex-basis: 100%;
+}
+
+}
